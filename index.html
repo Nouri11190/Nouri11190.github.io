@@ -12,11 +12,19 @@
   <header class="site-header">
     <a class="brand" href="#home" aria-label="Mark Allen Group home">
       <span class="brand-mark">MA</span>
-      <span><strong>MARK ALLEN GROUP</strong><small>Technology · Research · Products</small></span>
+      <span>
+        <strong>MARK ALLEN GROUP</strong>
+        <small>Technology · Research · Products</small>
+      </span>
     </a>
     <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="nav">Menu</button>
-    <nav id="nav">
-      <a href="#about">About</a><a href="#focus">Focus areas</a><a href="#projects">Projects</a><a href="#principles">Principles</a><a href="#contact">Links</a>
+    <nav id="nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#focus">Focus areas</a>
+      <a href="#projects">Projects</a>
+      <a href="#now">Now</a>
+      <a href="#principles">Principles</a>
+      <a href="#contact">Links</a>
     </nav>
   </header>
 
@@ -24,7 +32,7 @@
     <section class="hero">
       <div class="eyebrow"><span class="status-dot"></span> INDEPENDENT TECHNOLOGY ECOSYSTEM</div>
       <h1>Ideas are a start.<br><span>Working systems are the goal.</span></h1>
-      <p class="hero-copy">Mark Allen Group is the public home for experiments and projects across AI infrastructure, practical software, developer tools, data-driven research, blockchain tooling, and digital products.</p>
+      <p class="hero-copy">Mark Allen Group is the public home for practical work across AI infrastructure, software, developer tools, data-driven research, blockchain tooling, and digital products.</p>
       <div class="hero-actions">
         <a class="button primary" href="#projects">Explore the work <span aria-hidden="true">↗</span></a>
         <a class="button secondary" href="https://github.com/Nouri11190">GitHub profile</a>
@@ -35,37 +43,142 @@
     <section class="intro section" id="about">
       <div class="section-label">01 / ABOUT</div>
       <div class="intro-content">
-        <h2>A connected body of work, built one useful system at a time.</h2>
-        <p>The work gathered under Mark Allen Group is practical and iterative: start with a real problem, inspect the constraints, build a workable solution, test it, document what happened, and improve it without discarding useful work unnecessarily.</p>
-        <p>This site is an evolving index of projects, research, tools, and lessons. Project status will be marked honestly; experiments are not presented as finished products.</p>
+        <h2>A connected body of technology work, built one useful system at a time.</h2>
+        <p>Mark Allen Group brings together practical work across AI infrastructure, software, developer tooling, data research, blockchain systems, and digital products.</p>
+        <p>The approach is simple: identify a real problem, understand the constraints, build a workable system, test it with evidence, document what happened, and improve what already works.</p>
+        <p>Projects are treated according to their actual stage of development. Experiments remain experiments until evidence shows that they are ready for something more.</p>
       </div>
     </section>
 
     <section class="section focus-section" id="focus">
-      <div class="section-heading"><div class="section-label">02 / FOCUS AREAS</div><h2>Connected disciplines.<br>Practical outcomes.</h2></div>
+      <div class="section-heading">
+        <div class="section-label">02 / FOCUS AREAS</div>
+        <h2>Connected disciplines.<br>Practical outcomes.</h2>
+      </div>
       <div class="focus-grid">
-        <article class="focus-card"><span class="card-number">01</span><div class="icon">⌘</div><h3>AI & Infrastructure</h3><p>Self-hosted-first AI systems, gateways, server/client architecture, automation, and tools that make AI services usable.</p><span class="tag">SYSTEMS</span></article>
-        <article class="focus-card"><span class="card-number">02</span><div class="icon">◈</div><h3>Software & Developer Tools</h3><p>Applications, CLI workflows, project scaffolding, developer portals, and operational tooling.</p><span class="tag">BUILD</span></article>
-        <article class="focus-card"><span class="card-number">03</span><div class="icon">⌁</div><h3>Data & Research</h3><p>Market-data exploration, measurable hypotheses, backtesting, pipeline checks, and evidence-led iteration.</p><span class="tag">INVESTIGATE</span></article>
-        <article class="focus-card"><span class="card-number">04</span><div class="icon">↗</div><h3>Digital Products</h3><p>Useful web products and business experiments designed to move from prototype toward real users and sustainable value.</p><span class="tag">DELIVER</span></article>
+        <article class="focus-card">
+          <span class="card-number">01</span><div class="icon" aria-hidden="true">⌘</div>
+          <h3>AI &amp; Infrastructure</h3>
+          <p>Self-hosted-first AI systems, gateways, server/client architecture, automation, and tools that make AI services usable.</p>
+          <span class="tag">SYSTEMS</span>
+        </article>
+        <article class="focus-card">
+          <span class="card-number">02</span><div class="icon" aria-hidden="true">◈</div>
+          <h3>Software &amp; Developer Tools</h3>
+          <p>Applications, CLI workflows, project scaffolding, developer portals, and operational tooling.</p>
+          <span class="tag">BUILD</span>
+        </article>
+        <article class="focus-card">
+          <span class="card-number">03</span><div class="icon" aria-hidden="true">⌁</div>
+          <h3>Data &amp; Research</h3>
+          <p>Market-data exploration, measurable hypotheses, backtesting, pipeline checks, and evidence-led iteration.</p>
+          <span class="tag">INVESTIGATE</span>
+        </article>
+        <article class="focus-card">
+          <span class="card-number">04</span><div class="icon" aria-hidden="true">↗</div>
+          <h3>Digital Products</h3>
+          <p>Useful web products and business experiments designed to move from prototype toward real users and sustainable value.</p>
+          <span class="tag">DELIVER</span>
+        </article>
       </div>
     </section>
 
     <section class="section projects-section" id="projects">
-      <div class="section-heading"><div class="section-label">03 / PROJECT INDEX</div><h2>Work in progress<br>and ideas worth testing.</h2><p class="section-subtitle">The entries below are based on project history shared so far. Status labels are provisional until each repository and current build is verified.</p></div>
-      <div class="project-list">
-        <article class="project-row"><div class="project-symbol">G</div><div class="project-info"><div class="project-title-line"><h3>Genesis / AI Workspace</h3><span class="pill historical">VERIFY STATUS</span></div><p>AI-oriented workspace and developer tooling, including CLI and project lifecycle concepts such as generation, validation, discovery, and launching.</p><div class="project-meta">AI · WORKSPACE · DEVELOPER TOOLS</div></div><a class="text-link" href="https://github.com/Nouri11190?tab=repositories" aria-label="Find Genesis repositories">Find repo ↗</a></article>
-        <article class="project-row"><div class="project-symbol">M</div><div class="project-info"><div class="project-title-line"><h3>Murem</h3><span class="pill historical">VERIFY STATUS</span></div><p>A YouTube audio workflow exploring AI-powered vocal/background-music separation, with heavy processing moved toward server-side infrastructure.</p><div class="project-meta">MEDIA · AI AUDIO · MOBILE CLIENT</div></div><a class="text-link" href="https://github.com/Nouri11190?tab=repositories" aria-label="Find Murem repositories">Find repo ↗</a></article>
-        <article class="project-row"><div class="project-symbol">O</div><div class="project-info"><div class="project-title-line"><h3>Omnichain Portal</h3><span class="pill historical">VERIFY STATUS</span></div><p>A developer-facing smart-contract portal concept involving contract addresses, ABIs, function arguments, read/write interactions, and test networks.</p><div class="project-meta">BLOCKCHAIN · WEB3 · DEVELOPER PORTAL</div></div><a class="text-link" href="https://github.com/Nouri11190/omnichain-portal">Known repository ↗</a></article>
-        <article class="project-row"><div class="project-symbol">P</div><div class="project-info"><div class="project-title-line"><h3>Practical Operating Protocol</h3><span class="pill building">DOCUMENTED WORKFLOW</span></div><p>A cautious recovery workflow: stop, preserve, map, classify, trace, recover, remediate, verify, release, and learn.</p><div class="project-meta">OPERATIONS · RECOVERY · EVIDENCE</div></div><a class="text-link" href="https://github.com/Nouri11190?tab=repositories" aria-label="Find protocol repository">Find repo ↗</a></article>
-        <article class="project-row"><div class="project-symbol">D</div><div class="project-info"><div class="project-title-line"><h3>PayNinja / PayNaija</h3><span class="pill historical">VERIFY STATUS</span></div><p>A monetized web-app effort involving payment integration and a migration toward a more controlled development/deployment workflow.</p><div class="project-meta">WEB APP · PAYMENTS · DIGITAL BUSINESS</div></div><a class="text-link" href="https://github.com/Nouri11190?tab=repositories" aria-label="Find PayNinja repositories">Find repo ↗</a></article>
-        <article class="project-row"><div class="project-symbol">X</div><div class="project-info"><div class="project-title-line"><h3>Glassnode / x402 Research</h3><span class="pill experimental">RESEARCH</span></div><p>Exploration of on-chain/market data, strategy validation, liquidity filters, and data-pipeline health checks.</p><div class="project-meta">MARKET DATA · RESEARCH · VALIDATION</div></div><a class="text-link" href="https://github.com/Nouri11190?tab=repositories" aria-label="Find research repositories">Find repo ↗</a></article>
+      <div class="section-heading">
+        <div class="section-label">03 / PROJECT INDEX</div>
+        <h2>Work in progress<br>and ideas worth testing.</h2>
+        <p class="section-subtitle">An evolving index of projects, experiments, and research. Status is updated as repositories and current development are verified.</p>
       </div>
-      <p class="notice"><strong>Evidence note:</strong> These entries summarize historical context, not a claim that every project is currently deployed or production-ready. Links will be replaced with exact repositories after repository access and status are verified.</p>
+      <div class="project-list">
+        <article class="project-row">
+          <div class="project-symbol">G</div>
+          <div class="project-info">
+            <div class="project-title-line"><h3>Genesis / AI Workspace</h3><span class="pill historical">VERIFY STATUS</span></div>
+            <p>AI-oriented workspace and developer tooling focused on project generation, validation, discovery, runtime management, and repeatable development workflows.</p>
+            <div class="project-meta">AI · WORKSPACE · DEVELOPER TOOLS</div>
+          </div>
+          <a class="text-link" href="https://github.com/Nouri11190?tab=repositories" aria-label="Find Genesis repositories">Find repo ↗</a>
+        </article>
+
+        <article class="project-row">
+          <div class="project-symbol">M</div>
+          <div class="project-info">
+            <div class="project-title-line"><h3>Murem</h3><span class="pill historical">VERIFY STATUS</span></div>
+            <p>An AI-powered media workflow exploring vocal and background-music separation, designed around a lightweight client with heavier processing handled by appropriate server infrastructure.</p>
+            <div class="project-meta">MEDIA · AI AUDIO · MOBILE CLIENT</div>
+          </div>
+          <a class="text-link" href="https://github.com/Nouri11190?tab=repositories" aria-label="Find Murem repositories">Find repo ↗</a>
+        </article>
+
+        <article class="project-row">
+          <div class="project-symbol">O</div>
+          <div class="project-info">
+            <div class="project-title-line"><h3>Omnichain Portal</h3><span class="pill historical">VERIFY STATUS</span></div>
+            <p>A developer portal for interacting with smart contracts through contract addresses, ABIs, function arguments, read operations, write operations, and supported test networks.</p>
+            <div class="project-meta">BLOCKCHAIN · WEB3 · DEVELOPER PORTAL</div>
+          </div>
+          <a class="text-link" href="https://github.com/Nouri11190/omnichain-portal">Known repository ↗</a>
+        </article>
+
+        <article class="project-row">
+          <div class="project-symbol">P</div>
+          <div class="project-info">
+            <div class="project-title-line"><h3>Practical Operating Protocol</h3><span class="pill building">DOCUMENTED WORKFLOW</span></div>
+            <p>A structured recovery and remediation workflow built around ten stages: stop, preserve, map, classify, trace, recover, remediate, verify, release, and learn.</p>
+            <div class="project-meta">OPERATIONS · RECOVERY · EVIDENCE</div>
+          </div>
+          <a class="text-link" href="https://github.com/Nouri11190?tab=repositories" aria-label="Find protocol repository">Find repo ↗</a>
+        </article>
+
+        <article class="project-row">
+          <div class="project-symbol">D</div>
+          <div class="project-info">
+            <div class="project-title-line"><h3>PayNinja / PayNaija</h3><span class="pill historical">VERIFY STATUS</span></div>
+            <p>A web application and digital-business project exploring payment integration, financial workflows, and a more controlled development and deployment environment.</p>
+            <div class="project-meta">WEB APP · PAYMENTS · DIGITAL BUSINESS</div>
+          </div>
+          <a class="text-link" href="https://github.com/Nouri11190?tab=repositories" aria-label="Find PayNinja repositories">Find repo ↗</a>
+        </article>
+
+        <article class="project-row">
+          <div class="project-symbol">X</div>
+          <div class="project-info">
+            <div class="project-title-line"><h3>Glassnode / x402 Research</h3><span class="pill experimental">RESEARCH</span></div>
+            <p>Research into on-chain and market data, measurable strategy hypotheses, validation, liquidity filters, and the reliability of data pipelines.</p>
+            <div class="project-meta">MARKET DATA · RESEARCH · VALIDATION</div>
+          </div>
+          <a class="text-link" href="https://github.com/Nouri11190?tab=repositories" aria-label="Find research repositories">Find repo ↗</a>
+        </article>
+      </div>
+      <p class="notice"><strong>Status note:</strong> Project descriptions reflect documented work and are updated as repositories, builds, and current development status are verified. Experimental or historical work is not presented as production-ready.</p>
+    </section>
+
+    <section class="section now-section" id="now">
+      <div class="section-heading">
+        <div class="section-label">04 / NOW BUILDING</div>
+        <h2>Current direction.<br>Next useful system.</h2>
+      </div>
+      <div class="now-content">
+        <article class="now-card">
+          <span class="now-status">ACTIVE DIRECTION</span>
+          <h3>Self-hosted AI infrastructure</h3>
+          <p>Building practical AI systems around lightweight clients, server-side processing, gateways, automation, and infrastructure that can be controlled and improved over time.</p>
+        </article>
+        <article class="now-card">
+          <span class="now-status">EXPLORATION</span>
+          <h3>Developer and operational tooling</h3>
+          <p>Turning recurring development and recovery problems into reusable workflows, tools, and documented operating systems.</p>
+        </article>
+        <article class="now-card">
+          <span class="now-status">RESEARCH</span>
+          <h3>Data-driven systems</h3>
+          <p>Testing measurable ideas with real data, validation, controlled experiments, and evidence before treating a result as reliable.</p>
+        </article>
+      </div>
     </section>
 
     <section class="section principles-section" id="principles">
-      <div class="section-label">04 / WORKING PRINCIPLES</div>
+      <div class="section-label">05 / WORKING PRINCIPLES</div>
       <div class="principles-layout">
         <h2>Build with evidence.<br>Improve without losing<br>what already works.</h2>
         <div class="principles-list">
@@ -78,13 +191,23 @@
     </section>
 
     <section class="cta-section" id="contact">
-      <div><div class="section-label">05 / FOLLOW THE WORK</div><h2>The best way to understand the work<br>is to inspect what gets built.</h2><p>Follow repositories and project updates on GitHub. This site will grow as projects are verified and new public assets are added.</p></div>
+      <div>
+        <div class="section-label">06 / FOLLOW THE WORK</div>
+        <h2>The best way to understand the work<br>is to inspect what gets built.</h2>
+        <p>Follow repositories and project updates on GitHub. This site will grow as projects are verified and new public assets are added.</p>
+      </div>
       <a class="button primary" href="https://github.com/Nouri11190">Visit GitHub <span aria-hidden="true">↗</span></a>
     </section>
   </main>
 
-  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">MA</span><span><strong>MARK ALLEN GROUP</strong><small>Build · Test · Document · Improve</small></span></a><p>Independent technology work. Status and descriptions are updated as evidence is verified.</p><span class="copyright">© <span id="year"></span> Mark Allen Group</span></footer>
+  <footer>
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">MA</span>
+      <span><strong>MARK ALLEN GROUP</strong><small>Build · Test · Document · Improve</small></span>
+    </a>
+    <p>Independent technology work. Status and descriptions are updated as evidence is verified.</p>
+    <span class="copyright">© <span id="year"></span> Mark Allen Group</span>
+  </footer>
   <script src="assets/main.js"></script>
 </body>
-                                                                                                           </html>
-                                                                                                                                                                                                                                          
+</html>
